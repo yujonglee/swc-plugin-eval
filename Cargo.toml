@@ -1,0 +1,16 @@
+[package]
+name = "eval"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+serde = "1"
+swc_plugin = "*"
+quick-js = "=0.3.0"
+testing = "0.20.1"
+swc_ecma_transforms_testing = "0.88.0"
+swc_ecma_parser = "0.104.2"
+swc_ecma_transforms_base = "0.86.0"
